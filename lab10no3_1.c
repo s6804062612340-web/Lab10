@@ -16,7 +16,6 @@ int main() {
     printf("Enter Book Title :");   
     scanf("%s",ComputerBook.BookTitle); 
     DisplayData(ComputerBook); // ส่งข้อมูลไปยังฟังก์ชัน DisplayData 
-    DisplayData2(&ComputerBook);
 
 return 0; 
 } 
