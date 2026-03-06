@@ -13,7 +13,7 @@ int main() {
     scanf("%d",&ComputerBook.BookID); 
     printf("Enter Book Title :");   
     scanf("%s",ComputerBook.BookTitle);
-
+    DisplayData2(&ComputerBook);
     return 0; 
 } 
 
